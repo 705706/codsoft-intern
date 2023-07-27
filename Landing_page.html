@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-image: linear-gradient(#18305C, #737DBB, #F083BA, #BD81BF, #D4B8E9);
+        }
+        .maindiv {
+            display: grid;
+            grid-template-areas: 'b1 b1 b1 b1 b1 a1';
+            margin-top: 200px;
+            margin-left: 150px;
+            border-color: #18305C;
+
+        }
+        #child {
+            display: grid;
+            grid-template-areas: 'c1 c1 d1 d1 e1 e1';
+            margin-top: 300px;
+            /* text-align: center; */
+            margin-left: 500px;
+        }
+        #a {
+            grid-area: a1;
+            margin-right: 100px;
+            border-radius: 50px;
+        }
+
+        #b {
+            grid-area: b1;
+            border-radius: 90px;
+            border-color: #00AAF8;
+            box-shadow: 3px 3px #F083BA;
+            margin-right: 90px;
+            text-shadow: #FFFFFF;
+        }
+        h1 {
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+            margin-top: 200px;
+        }
+        h4 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        p {
+            margin-left: 100px;
+            font-size: 20px;
+        }
+        #c,#d,#e {
+            grid-area: c1;
+        }
+        #registration {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+        img {
+            border: 10px #18305C;
+            border-radius: 30px;
+        }
+        footer {
+            background-color: black;
+            color: #FFFFFF;
+            text-indent: 70px;
+            text-align: left;
+            font-size: 40px;
+        }
+        .navbar-brand {
+            font-size: 50px;
+        }
+        #l {
+            font-size: 20px;
+            box-shadow: 20px 20px 20px 10px black;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">TravelX</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Book Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="maindiv">
+        <div id="a">
+            <img src="https://images.pexels.com/photos/119777/pexels-photo-119777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 "
+                width="500px" height="700px" id="img">
+        </div>
+        <div id="b">
+            <h1>Now travel <br>with us!!!</h1>
+            <p> Score incredible discounts and exclusive <br>packages for your dream vacation.</p>
+        </div>
+    </div>
+</body>
+</div>
+<div class="maindiv">
+    <div align="left" id="x">
+        <img src="https://images.pexels.com/photos/11193824/pexels-photo-11193824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            width="400px" height="400px" id="img">
+        <h4>Book AirPlane Tickts</h4>
+    </div>
+    <div align="left" id="y">
+        <img src="https://images.pexels.com/photos/1463008/pexels-photo-1463008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            width="400px" height="400px" id="img">
+        <h4>Book Train Tickts</h4>
+    </div>
+    <div align="left" id="z">
+        <img src="https://live.staticflickr.com/8185/29316957955_48e34b7a3e_b.jpg" width="400px" height="400px"
+            id="img">
+        <h4>Book Bus Tickts</h4>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="a">
+                <h1><i class="bi bi-1-square"></i></h1>
+                <h2><i class="bi bi-ticket"></i></h2>
+                <h4>Book Tickets with great discounts!!!</h4>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="b">
+                <h1><i class="bi bi-2-square"></i></h1>
+                <h2><i class="bi bi-airplane"></i>
+                    <h2>
+                        <h4>Fast Booking!!!</h4>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="c">
+                <h1><i class="bi bi-3-square"></i></h1>
+                <h2><i class="bi bi-universal-access"></i>
+                    <h2>
+                        <h4>Easy Access!!!</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="l">
+    
+    <h2 style="font-family: 'Times New Roman', Times, serif;">Register Yourself!!!</h2><br>
+    First Name :<input type="text"><br><br>
+    Last name :<input type="text"> <br><br>
+    E-mail Add. :<input type="text"> <br><br>
+    Mobile No :<input type="text"> <br><br>
+    Password: <input type="password"><br><br>
+    <button type="button" class="btn btn-primary">Submit</button><br><br>
+    <button type="button" class="btn btn-primary">LogIn</button><br><br>
+    <a href="...">Forgot password?</a><br><br><br><br>
+</div>
+</div>
+<footer>Follow us on: Facebook:<i class="bi bi-facebook "></i>
+    Instagram:<i class="bi bi-instagram"></i>
+    Twitter:<i class="bi bi-twitter"></i>
+</footer>
+</html>
