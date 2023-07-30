@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+<style>
+    body {
+        background-color: #2d545e;
+    }
+
+    #c {
+        background-image: url("https://images.pexels.com/photos/8823319/pexels-photo-8823319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        height: 800px;
+        background-size: cover;
+        box-shadow: 5px 5px black;
+    }
+
+    #a {
+        grid-area: a1;
+        display: flex;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: #811111;
+        border-radius: 10px;
+        margin: 8px;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        box-shadow: 5px 5px black;
+
+    }
+
+    #b {
+        grid-area: b1;
+        display: flex;
+        background-color: #811111;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-right: 10px;
+        box-shadow: 5px 5px black;
+
+    }
+
+    #d {
+        text-align: left;
+        background-color: #811111;
+        height: 500px;
+        width: 1490PX;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px black;
+    }
+
+    #e {
+        grid-area: d1;
+        display: block;
+        color: black;
+        text-align: left;
+        background-color: #811111;
+        border-radius: 10px;
+        padding: 50px;
+        padding-left: 50px;
+        margin-left: 10px;
+        box-shadow: 5px 5px black;
+
+    }
+
+    h1 {
+        text-shadow: 10px 10px 10px rgb(171, 152, 190);
+        color: antiquewhite;
+        text-align: center;
+        padding-top: 300px;
+
+    }
+
+    h4 {
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h2 {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .maindiv {
+        display: grid;
+        grid-template-areas: 'a1 a1 a1 b1 b1 b1';
+    }
+
+    .container {
+        color: black;
+        font-style: italic;
+
+    }
+
+
+    #contact {
+        padding: 20px;
+        background-color: #811111;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px black;
+        margin-top: 10px;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .portfolio-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-container {
+        width: 30%;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" href="/resume.pdf">Download CV</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="c">
+        <h1>
+            <h2><i class="bi bi-arrow-down-right-square-fill"></i>
+                <h2><br></i>Hii!!
+                    This is,<br>
+                    Suraj Kadukar!!!
+        </h1>
+    </div>
+    <div class="maindiv">
+        <div id="a">
+            <h4> About Me:<br>
+                Hi this is Suraj Sarjerao Kadukar. I have recently completed my bachelor's degree in computer
+                Enginerring.<br><br>
+                Skills:<br>
+                I have knowlege of computer language like C,C++,Java,Python.<br><br>
+                Proficeint with web technoligies like html,css,javascript & php,<br><br>
+                Follow me on:<br>Facebook: <i class="bi bi-facebook"></i><br>
+                Instagram: <i class="bi bi-instagram"></i><br>
+                Twitter: <i class="bi bi-twitter"></i>
+            </h4>
+
+        </div>
+        <div id="b">
+            <img src="https://preview.redd.it/5yc94t4y1x451.png?auto=webp&s=783bd1e3109fd46df2907956d1e9bbd0937744eb"
+                width="450px" height="400px">
+        </div>
+
+    </div>
+    <div id="e">
+        <h2>Projects:</h2>
+        <div class="portfolio-section">
+            <div class="project-container">
+                <h3><i class="bi bi-airplane"></i></h3>
+                <h3>Landing Page</h3>
+                <p>HTML,CSS</p>
+            </div>
+
+            <div class="project-container">
+                <h3><i class="bi bi-file-earmark-person"></i></h3>
+                <h3>Portfolio Website</h3>
+                <p>HTML,CSS</p>
+            </div>
+
+            <div class="project-container">
+                <h3> <i class="bi bi-calculator"></i></h3>
+                <h3>Calculator App</h3>
+                <p>HTML,CSS,JAVASCRIPT</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="d">
+        <h2>Skills</h2>
+        <h3>C Language: </h3>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 70%"></div>
+        </div><br>
+        <h3>C++ Language: </h3>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 65%"></div>
+        </div><br>
+        <h3>HTML Language: </h3>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 70%"></div>
+        </div><br>
+        <h3>CSS Language: </h3>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 60%"></div>
+        </div><br>
+        <h3>JAVASCRIPT Language: </h3>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 50%"></div>
+        </div>
+    </div>
+    </div>
+    <div id="f">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            <div class="container">
+                <h3>&copy; 2023 Suraj Kadukar</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
